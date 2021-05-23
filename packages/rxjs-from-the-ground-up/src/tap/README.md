@@ -26,13 +26,6 @@ const example = source.pipe(
 //'tap' does not transform values
 //output: 11...12...13...14...15
 const subscribe = example.subscribe((val) => console.log(val));
-
-// output:
-// 10
-// 20
-// 30
-// 40
-// 50
 ```
 
 ## References
