@@ -1,3 +1,3 @@
-import { tap as starosaur } from "./tap.solution.starosaur";
+import { tap as voltibou } from "./tap.solution.starosaur";
 
-export const solutions = [starosaur];
+export const solutions = [voltibou];
