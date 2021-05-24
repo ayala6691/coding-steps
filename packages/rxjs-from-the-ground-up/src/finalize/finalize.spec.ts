@@ -59,24 +59,4 @@ function runSpecs(finalize) {
   });
 }
 
-/*
-
-const computation$ = createObservable((subscriber) => {
-  try {
-    const computationResult = {}.nonExistingMethod();
-    subscriber.next(computationResult);
-  } catch (err) {
-    subscriber.error("error in computation");
-  }
-});
-
-computation$.subscribe({
-  next: (val) => {},
-  error: (err) => {
-    expect(err).toEqual("error in computation");
-    done();
-  },
-  complete: () => {},
-});*/
-
 solutions.forEach((fn) => runSpecs(fn));
